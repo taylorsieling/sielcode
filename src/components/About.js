@@ -14,7 +14,7 @@ export default function About() {
                 </div>
                 <div className="console-body">
                     <div className="about-text">
-                        <p className="about-answer"> // AboutMe.md</p>
+                        <p className="about-answer"> &#47;&#47; AboutMe.md</p>
                         <p>> Taylor.specialty <br/>  <span class="about-answer"> &nbsp;&nbsp; => "Full-Stack Web Developer"</span></p>
                         <p>> Taylor.location <br/>  <span class="about-answer"> &nbsp;&nbsp; => "Houston, TX"</span></p>
                         <p>> Taylor.education[0] <br/>  <span class="about-answer"> &nbsp;&nbsp; => &#123; School: "Flatiron School", Program: "Software Engineering" &#125; </span></p>
