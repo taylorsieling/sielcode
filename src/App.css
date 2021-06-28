@@ -16,12 +16,17 @@ a {
 /* SECTIONS */
 
 #projects, #navigation {
+  padding-top: 20px;
   background-color: #f8f5ef;
   color: #4f4f4f;
 }
 
 #header {
   background-color: white;
+}
+
+#blog {
+  padding-top: 20px;
 }
 
 #about {

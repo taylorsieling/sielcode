@@ -2,6 +2,10 @@ import React from 'react'
 
 function Projects() {
     return (
+        <section id="projects">
+            <div>
+                <h3>FEATURED PROJECTS</h3>
+            </div>
         <div className="row" id="projects">
             <div className="row-three">
                 <div className="card-header">
@@ -28,6 +32,7 @@ function Projects() {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
 
