@@ -2,8 +2,21 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div>
-            <p>I am the About Component</p>
-        </div>
+        <section id="about">
+            <div>
+            <div className="code">
+                <div className="console-top">
+                    <div className="console-buttons">
+                        <div className="close"></div>
+                        <div className="minimize"></div>
+                        <div className="zoom"></div>
+                    </div>
+                </div>
+                <div className="console-body">
+
+                </div>
+            </div>
+            </div>
+        </section>
     )
 }
