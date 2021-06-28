@@ -8,7 +8,7 @@ function Blog(props) {
         <div id={article.id} className="row-four">
             <a className="hvr-grow" href={article.url}>
             <div className="card-header">
-                <img className="card-img" src={article.social_image}/>
+                <img className="card-img" src={article.social_image} alt="Article Cover"/>
             </div>
             <div className="card-body card-art">
                 <p className="posted">{article.readable_publish_date}</p>
