@@ -21,12 +21,13 @@ a {
 
 /* SECTIONS */
 
-#projects, #navigation {
+#navigation {
   background-color: #f8f5ef;
   color: #4f4f4f;
 }
 
-#project {
+#projects {
+  background-color: #f8f5ef;
   padding-top: 20px;
 }
 
@@ -49,6 +50,10 @@ a {
 
 #contact {
   background-color: white;
+}
+
+#footer {
+  background-color: #f8f5ef;
 }
 
 
@@ -152,7 +157,7 @@ a {
 
 .topnav {
   overflow: hidden;
-  background-color: #f3eddf;
+  background-color: #f8f5ef;
 }
 
 .topnav a {
@@ -343,6 +348,28 @@ a {
   text-align: left;
 }
 
+/* FOOTER */
+
+.footer {
+  padding: 10px 30px;
+  text-align: left;
+  font-size: x-small;
+
+}
+
+.footnav a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+.footnav a:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(3.0,3.0);
+}
+
+.right {
+  float: right;
+}
 
 /* #C1A99A */
 /* #AF6D55 */
