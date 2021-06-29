@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+hr {
+  margin: 20px 100px;
+}
+
 /* SECTIONS */
 
 #navigation {
@@ -46,6 +50,8 @@ a {
 
 #resume {
   background-color: #9BA6A1;
+  color: white;
+  padding-bottom: 30px;
 }
 
 #contact {
@@ -117,7 +123,7 @@ a {
  }
 
 .card-art {
-  height: 6rem;
+  height: 7rem;
 }
 
 .card-footer {
@@ -158,6 +164,8 @@ a {
 .topnav {
   overflow: hidden;
   background-color: #f8f5ef;
+  height: 30px;
+  padding-top: 8px;
 }
 
 .topnav a {
@@ -220,7 +228,7 @@ a {
 .main-title {
   font-family: 'Karla', sans-serif;
   font-size: 40px;
-  color: #c78c20;
+  color: #8F681E;
 }
 
 /* ABOUT */
@@ -269,7 +277,7 @@ a {
 }
 
 .minimize {
-  background-color: #F0B74D;
+  background-color: #d39729;
 }
 
 .zoom {
@@ -337,15 +345,43 @@ a {
 
 /* RESUME */
 
-.scroll {
+.res-body {
   margin: auto;
   padding: 20px;
-  background-color: #9BA6A1;
   width: 800px;
-  height: 400px;
+  height: 600px;
+  background-color: white;
+}
+
+.scroll {
+  height: 580px;
   overflow-x: hidden;
   overflow-y: auto;
+  color: #4f4f4f;
   text-align: left;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.scroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.resume-title {
+  text-transform: uppercase;
+}
+
+.duties {
+  font-weight: normal;
+  letter-spacing: normal;
+  padding-bottom: 20px;
 }
 
 /* FOOTER */

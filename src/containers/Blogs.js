@@ -21,10 +21,13 @@ function Blogs() {
     return (
         <section id="blog">
             <div>
-                <h3>RECENT BLOG POSTS</h3>
+                <h3>RECENT BLOG POSTS</h3><hr/>
             </div>
             <div className="row">
                 {(articles.map((article, i) => <Blog key={i} article={article}/>))}
+            </div>
+            <div>
+                <h3>VIEW MORE ON DEV.TO <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
             </div>
         </section>
     )

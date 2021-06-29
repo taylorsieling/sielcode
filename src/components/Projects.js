@@ -4,7 +4,7 @@ function Projects() {
     return (
         <section id="projects">
             <div>
-                <h3>FEATURED PROJECTS</h3>
+                <h3>FEATURED PROJECTS</h3><hr/>
             </div>
         <div className="row" id="projects">
             <div className="row-three">
