@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f3eddf;
   color: #4f4f4f;
+  letter-spacing: 2px;
 }
 
 code {

@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
 div {
   margin: auto;
   padding: 20px;
@@ -34,6 +40,7 @@ a {
 
 #about {
   background-color: #9BA6A1;
+  letter-spacing: normal;
 }
 
 #resume {
@@ -41,7 +48,7 @@ a {
 }
 
 #contact {
-  background-color: #af6055;
+  background-color: white;
 }
 
 
@@ -208,7 +215,7 @@ a {
 .main-title {
   font-family: 'Karla', sans-serif;
   font-size: 40px;
-  color: #F0B74D;
+  color: #c78c20;
 }
 
 /* ABOUT */
@@ -297,10 +304,43 @@ a {
 /* CONTACT */ 
 
 .contact-div {
-  background-color: white;
+  background-color: #af6055;
   width: 800px;
   margin: auto;
   padding: 20px;
+}
+
+.contact-title {
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  color: #f8f5ef;
+  text-align: right;
+  vertical-align: middle;
+  padding: 60px 20px;
+}
+
+.button {
+  background-color: #f8f5ef;
+  color: #4f4f4f;
+  padding: 10px;
+  display: block;
+}
+
+.button a {
+
+}
+
+/* RESUME */
+
+.scroll {
+  margin: auto;
+  padding: 20px;
+  background-color: #9BA6A1;
+  width: 800px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: left;
 }
 
 

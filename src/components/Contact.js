@@ -6,12 +6,11 @@ export default function Contact() {
             <div className="contact">
                 <div className="contact-div">
                     <div className="row">
-                        <div className="row-two">Let's Stay in Touch</div>
+                        <div className="row-two contact-title">Let's Stay in Touch!</div>
                         <div className="row-two">
-                            <p>a link button</p>
-                            <p>a link button</p>
-                            <p>a link button</p>
-                            <p>a link button</p>
+                            <p><a href="#" className="button">Email</a></p>
+                            <p><a href="#" className="button">LinkedIn</a></p>
+                            <p><a href="#" className="button">Twitter</a></p>
                         </div>
                     </div>
                 </div>
