@@ -13,9 +13,7 @@ export default function Header() {
                         <img className="headshot" src={headshot} alt="Taylor's Headshot"/>
                     </div>
                 </div>
-                
             </div>
-            <div className="header-three"></div>
         </section>
     )
 }

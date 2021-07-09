@@ -26,6 +26,7 @@ p {
 
 hr {
   margin: 20px 100px;
+  color: #4f4f4f;
 }
 
 .section-title {
@@ -234,27 +235,30 @@ hr {
 /* HEADER */
 
 .header {
-  background-color: #f8f5ef;
-  height: 300px;
+  background-color: #f3eddf;
 }
 
 .header-one {
-  text-align: right;
-}
-
-.header-three {
-  height: 200px;
+  vertical-align: middle;
+  position: relative;
+  top: 150px;
+  left: 60px;
 }
 
 .main-title {
+  background-color: white;
+  width: 300px;
+  text-align: right;
   font-family: 'Karla', sans-serif;
   font-size: 40px;
   color: #d39729;
-  padding: 80px 20px;
+  padding: 50px 20px;
 }
 
 .headshot {
   width: 300px;
+  outline: 8px solid white;
+  outline-offset: 20px;
 }
 
 /* ABOUT */
@@ -353,34 +357,6 @@ hr {
   
 }
 
-/* CONTACT */ 
-
-.contact-div {
-  background-color: #af6055;
-  width: 800px;
-  margin: auto;
-  padding: 20px;
-}
-
-.contact-title {
-  font-family: 'Karla', sans-serif;
-  font-size: 40px;
-  color: #f8f5ef;
-  text-align: right;
-  vertical-align: middle;
-  padding: 60px 20px;
-}
-
-.button {
-  background-color: #f8f5ef;
-  color: #4f4f4f;
-  padding: 10px;
-  display: block;
-}
-
-.button a {
-
-}
 
 /* RESUME */
 
@@ -439,6 +415,53 @@ hr {
     margin: 30px;
   }
 }
+
+/* CONTACT */ 
+
+.contact-div {
+  background-color: #af6055;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact-title {
+  font-family: 'Karla', sans-serif;
+  font-size: 40px;
+  color: #f8f5ef;
+  text-align: right;
+  vertical-align: middle;
+  padding: 60px 20px;
+}
+
+.button {
+  background-color: #f8f5ef;
+  color: #4f4f4f;
+  padding: 10px;
+  display: block;
+}
+
+.button a {
+
+}
+
+@media screen and (max-width:480px){
+  .code {
+    width: fit-content;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width: 880px) {
+  .contact-div {
+    width: fit-content;
+    margin: 30px;
+  }
+  .contact-title {
+    width: fit-content;
+    text-align: center;
+  }
+}
+
 
 /* FOOTER */
 
