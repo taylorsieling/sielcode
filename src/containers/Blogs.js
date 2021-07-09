@@ -20,14 +20,15 @@ function Blogs() {
 
     return (
         <section id="blog">
-            <div>
-                <h3>RECENT BLOG POSTS</h3><hr/>
+            <div className="section-title">
+                <h3>RECENT BLOG POSTS</h3>
             </div>
+            <hr/>
             <div className="row">
                 {(articles.map((article, i) => <Blog key={i} article={article}/>))}
             </div>
             <div>
-                <h3>VIEW MORE ON DEV.TO <i class="fa fa-arrow-right" aria-hidden="true"></i></h3>
+                <a className="blog-button" href="https://dev.to/taylorsieling">VIEW MORE ON DEV.TO <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </section>
     )

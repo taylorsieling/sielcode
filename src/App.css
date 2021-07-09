@@ -15,12 +15,24 @@ div {
   padding: 20px;
 }
 
+
 a {
   text-decoration: none;
 }
 
+p {
+  letter-spacing: normal;
+}
+
 hr {
   margin: 20px 100px;
+}
+
+.section-title {
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 
 /* SECTIONS */
@@ -40,7 +52,7 @@ hr {
 }
 
 #blog {
-  padding-top: 20px;
+  margin: 30px 0px;
 }
 
 #about {
@@ -221,14 +233,28 @@ hr {
 
 /* HEADER */
 
+.header {
+  background-color: #f8f5ef;
+  height: 300px;
+}
+
 .header-one {
   text-align: right;
+}
+
+.header-three {
+  height: 200px;
 }
 
 .main-title {
   font-family: 'Karla', sans-serif;
   font-size: 40px;
-  color: #8F681E;
+  color: #d39729;
+  padding: 80px 20px;
+}
+
+.headshot {
+  width: 300px;
 }
 
 /* ABOUT */
@@ -298,13 +324,17 @@ hr {
 
 @media screen and (max-width:480px){
   .code {
-    width:fit-content;
+    width: fit-content;
   }
 }
 
 @media screen and (min-width:480px) and (max-width: 880px) {
   .code {
-    width:fit-content;
+    width: fit-content;
+  }
+  .res-body {
+    width: fit-content;
+    margin: 30px;
   }
 }
 
@@ -312,6 +342,15 @@ hr {
   width: 200px;
   display: block;
   object-fit: cover;
+}  
+
+/* BLOGS */
+
+.blog-button {
+  padding: 14px;
+  background-color: white;
+  color: #4f4f4f;
+  
 }
 
 /* CONTACT */ 
@@ -363,6 +402,10 @@ hr {
   letter-spacing: 0.5px;
 }
 
+.scroll hr {
+  margin: 0;
+}
+
 .scroll::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 8px;
@@ -382,6 +425,19 @@ hr {
   font-weight: normal;
   letter-spacing: normal;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width:480px){
+  .res-body {
+    width: fit-content;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width: 880px) {
+  .res-body {
+    width: fit-content;
+    margin: 30px;
+  }
 }
 
 /* FOOTER */
