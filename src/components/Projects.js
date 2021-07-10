@@ -1,4 +1,7 @@
 import React from 'react'
+import Plantd from '../images/Plantd.png'
+import PenciledIn from '../images/PenciledIn.png'
+import KKF from '../images/KKF.png'
 
 function Projects() {
     return (
@@ -18,7 +21,7 @@ function Projects() {
             </div>
             <div className="row-three">
                 <div className="card-header">
-                    <img className="card-img" src="https://images.unsplash.com/photo-1519831802596-6aadd85ff671?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRldmVsb3BlcnxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="adfsdf"/>
+                    <img className="card-img" src={KKF} alt="adfsdf"/>
                 </div>
                 <div className="card-body">
                     <p><strong>The Kitten Foster: </strong>Record your kitten foster intake information. Update it as they grow.</p>
@@ -26,7 +29,7 @@ function Projects() {
             </div>
             <div className="row-three">
                 <div className="card-header">
-                    <img className="card-img" src="https://images.unsplash.com/photo-1518626413694-515489e9af5e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRldmVsb3BlcnxlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="fdasfas"/>
+                    <img className="card-img" src={Plantd} alt="fdasfas"/>
                 </div>
                 <div className="card-body">
                     <p><strong>Plantd: </strong>For the forgetful plant parent - Add your houseplants. Monitor their care.</p>
