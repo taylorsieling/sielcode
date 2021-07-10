@@ -88,7 +88,7 @@ hr {
 .row-two {
   padding: 20px;
   margin: 0;
-  width: 300px;
+  width: 400px;
 }
 
 .row-three {
@@ -176,7 +176,9 @@ hr {
 
 .topnav {
   overflow: hidden;
-  background-color: #f8f5ef;
+  background: -moz-linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
+  background: -webkit-linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
+  background: linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
   height: 30px;
   padding-top: 8px;
 }
@@ -235,30 +237,42 @@ hr {
 /* HEADER */
 
 .header {
-  background-color: #f3eddf;
+  /* background-color: #f8f5ef; */
+  background: -moz-linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
+  background: -webkit-linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
+  background: linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
+  height: 460px;
 }
 
 .header-one {
   vertical-align: middle;
-  position: relative;
-  top: 150px;
-  left: 60px;
 }
 
 .main-title {
-  background-color: white;
-  width: 300px;
-  text-align: right;
+  width: 360px;
+  text-align: left;
   font-family: 'Karla', sans-serif;
-  font-size: 40px;
-  color: #d39729;
-  padding: 50px 20px;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  padding: 20px 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-family: 'Poppin', sans-serif;
+  font-weight: normal;
+  color: #6d6d6d;
 }
 
 .headshot {
-  width: 300px;
-  outline: 8px solid white;
-  outline-offset: 20px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.spacer {
+  background-color: #f8f5ef;
+  height: 50px;
 }
 
 /* ABOUT */
