@@ -88,7 +88,7 @@ hr {
 .row-two {
   padding: 20px;
   margin: 0;
-  width: 400px;
+  width: 360px;
 }
 
 .row-three {
@@ -176,9 +176,6 @@ hr {
 
 .topnav {
   overflow: hidden;
-  background: -moz-linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
-  background: -webkit-linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
-  background: linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
   height: 30px;
   padding-top: 8px;
 }
@@ -237,11 +234,7 @@ hr {
 /* HEADER */
 
 .header {
-  /* background-color: #f8f5ef; */
-  background: -moz-linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
-  background: -webkit-linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
-  background: linear-gradient(90deg, #4f4f4f 33%, #f8f5ef 33%);
-  height: 460px;
+  background-color: #f8f5ef;
 }
 
 .header-one {
@@ -249,13 +242,14 @@ hr {
 }
 
 .main-title {
-  width: 360px;
+  width: 320px;
+  background-color: white;
   text-align: left;
-  font-family: 'Karla', sans-serif;
-  font-size: 26px;
+  font-family: 'Source Code Pro', sans-serif;
+  font-size: 20px;
   text-transform: uppercase;
   color: #4f4f4f;
-  padding: 20px 10px;
+  padding: 14px 14px;
 }
 
 .subtitle {
@@ -266,14 +260,23 @@ hr {
 }
 
 .headshot {
-  width: 400px;
+  width: 100%;
   object-fit: cover;
+  position: relative;
+  left: 30px;
 }
 
-.spacer {
-  background-color: #f8f5ef;
-  height: 50px;
+.header-img {
+  padding-right: 0;
 }
+
+.header-title {
+  padding-left: 0;
+  position: relative;
+  right: 30px;
+  top: 20px;
+}
+
 
 /* ABOUT */
 
