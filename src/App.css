@@ -277,6 +277,39 @@ hr {
   top: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .main-title {
+    width: fit-content;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .header-title {
+    padding-top: 0;
+    position: relative;
+    top: -130px;
+    margin-bottom: -100px;
+  }
+
+  .header-img {
+    padding: 20px;
+  }
+
+  .headshot {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: initial;
+  }
+
+}
+
+@media screen and (min-width:480px) and (max-width: 600px) {
+  .main-title {
+    width: fit-content;
+    text-align: center;
+  }
+}
 
 /* ABOUT */
 
