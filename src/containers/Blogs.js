@@ -28,7 +28,7 @@ function Blogs() {
                 {(articles.map((article, i) => <Blog key={i} article={article}/>))}
             </div>
             <div>
-                <a className="blog-button" href="https://dev.to/taylorsieling">VIEW MORE ON DEV.TO <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                <a className="blog-button hvr-grow" href="https://dev.to/taylorsieling">VIEW MORE ON DEV.TO <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             </div>
         </section>
     )
