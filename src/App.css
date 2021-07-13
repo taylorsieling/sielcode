@@ -280,7 +280,7 @@ hr {
 }
 
 .main-title {
-  width: 320px;
+  width: fit-content;
   background-color: white;
   text-align: left;
   font-family: 'Source Code Pro', sans-serif;
@@ -342,10 +342,29 @@ hr {
 
 }
 
-@media screen and (min-width:480px) and (max-width: 600px) {
+@media screen and (min-width:601px) and (max-width: 840px) {
   .main-title {
     width: fit-content;
     text-align: center;
+    margin-top: 0;
+  }
+
+  .header-title {
+    padding-top: 0;
+    position: relative;
+    top: -130px;
+    margin-bottom: -100px;
+  }
+
+  .header-img {
+    padding: 20px;
+  }
+
+  .headshot {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: initial;
   }
 }
 
@@ -414,13 +433,13 @@ hr {
   color: #f8f5efb2;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
   .code {
     width: fit-content;
   }
 }
 
-@media screen and (min-width:480px) and (max-width: 880px) {
+@media screen and (min-width:601px) and (max-width: 880px) {
   .code {
     width: fit-content;
   }
