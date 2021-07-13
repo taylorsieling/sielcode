@@ -85,10 +85,16 @@ hr {
   flex-direction: row;
 }
 
-.row-two {
+.row-two-head {
   padding: 20px;
   margin: 0;
   width: 360px;
+}
+
+.row-two-con {
+  padding: 20px;
+  margin: 0;
+  width: 160px;
 }
 
 .row-three {
@@ -163,9 +169,9 @@ hr {
   padding: 10px 20px;
 }
 
- .card-body > h4 {
-   font-weight: 600;
- }
+.card-body > h4 {
+  font-weight: 600;
+}
 
 .card-art {
   height: 7rem;
@@ -501,7 +507,7 @@ hr {
 /* CONTACT */ 
 
 .contact-div {
-  background-color: #af6055;
+  background-color: #924734;
   width: 800px;
   margin: auto;
   padding: 20px;
@@ -509,23 +515,35 @@ hr {
 
 .contact-title {
   font-family: 'Karla', sans-serif;
-  font-size: 40px;
-  color: #f8f5ef;
-  text-align: right;
+  font-size: 32px;
+  color: #f3eddf;
+  text-align: left;
   vertical-align: middle;
-  padding: 60px 20px;
+  padding: 0;
+  margin: 10px 10px;
 }
 
-.button {
-  background-color: #f8f5ef;
-  color: #4f4f4f;
+.contact-pic {
+  width: 100%;
+  float: right;
+}
+
+.contact {
+  margin: 10px;
+}
+
+.icon {
+  color: #f3eddf;
   padding: 10px;
   display: block;
+  text-align: center;
 }
 
-.button a {
-
+.icon > a {
+  text-decoration: none;
+  color: #f3eddf;
 }
+
 
 @media screen and (max-width:480px){
   .code {
