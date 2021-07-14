@@ -292,17 +292,22 @@ li {
     transition: all 0.5s ease;
     flex-direction: column;
     list-style-type: none;
-    grid-gap: 0px;
+    padding: 60px 40px;
   }
 
   .nav-options.active {
-    background: #9BA6A1;
+    background: #f3eddf;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
     align-content: center;
-    padding-left: 0px;
+    padding: 5px 0px;
+    margin: 10px 0px;
+  }
+
+  li {
+    padding: 20px 10px;
   }
 
   .menu-icon {
