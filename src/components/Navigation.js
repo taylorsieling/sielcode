@@ -11,12 +11,12 @@ function Navigation() {
 
     return (
         <section id="navigation">
+
             <div className="navbar">
                 <div className="nav-name">
-                    <div className="name-container">
-                        <p >Taylor Sieling</p>
-                    </div>
-
+                    <p>Taylor Sieling</p>
+                </div>
+                <div className="nav-links">
                     <ul className={navbar ? "nav-options active" : "nav-options"}>
                         <li className="option" onClick={closeMobile}>
                             <a href="#about">About</a>
@@ -35,7 +35,9 @@ function Navigation() {
                         </li>
                     </ul>
                 </div>
-                <div className="mobile-menu" onClick={handleToggle}>
+            </div>
+
+            <div className="mobile-menu" onClick={handleToggle}>
                     {navbar ? (
                     <i class="fas fa-bars fa-2x"></i>
                     ) : (
@@ -43,31 +45,6 @@ function Navigation() {
                     )}
                 </div>
 
-            </div>
-
-
-
-
-            <div className="topnav">
-                <p className="name">Taylor Sieling</p> 
-                
-                
-                
-                
-                
-            </div>
-
-            <div className="mobile">
-                <p className="name">Taylor Sieling</p>
-                <a href="#navigation" onClick={handleToggle} className="hamburger"> {navbar ? <i class="fas fa-bars fa-2x"></i> : <i class="fas fa-times fa-2x"></i>}</a>  
-            </div>
-            <div className={`${mobile ? "noDisplay" : "mobileMenu"}`}>
-                <a href="#contact">Contact</a><br/>
-                <a href="#resume">Résumé</a><br/>
-                <a href="#blog">Blog</a><br/>
-                <a href="#projects">Projects</a><br/>
-                <a href="#about">About</a>
-            </div>
         </section>
     )
 }
