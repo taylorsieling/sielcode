@@ -1,13 +1,10 @@
 import React, { useState } from 'react'
-import { Turn as Hamburger } from 'hamburger-react'
 
 function Navigation() {
 
-    const [navbar, setnavbar] = useState(false);
-    const [mobile, setMobile] = useState(false);
-
-    const handleToggle = () => setnavbar(!navbar);
-    const closeMobile = () => setMobile(false);
+    const [navbar, setNavbar] = useState(false);
+    const handleToggle = () => setNavbar(!navbar);
+    const closeMobile = () => setNavbar(false);
 
     return (
         <section id="navigation">
@@ -35,15 +32,16 @@ function Navigation() {
                         </li>
                     </ul>
                 </div>
-            </div>
-
-            <div className="mobile-menu" onClick={handleToggle}>
+                <div className="mobile-menu menu-icon" onClick={handleToggle}>
                     {navbar ? (
-                    <i class="fas fa-bars fa-2x"></i>
-                    ) : (
                     <i class="fas fa-times fa-2x"></i>
+                    ) : (
+                    <i class="fas fa-bars fa-2x"></i>
                     )}
                 </div>
+            </div>
+
+            
 
         </section>
     )
