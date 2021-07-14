@@ -1,5 +1,4 @@
 import React from 'react'
-import KKF from '../images/KKF.png'
 
 function Projects() {
     return (

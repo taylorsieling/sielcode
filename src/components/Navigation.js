@@ -3,25 +3,70 @@ import { Turn as Hamburger } from 'hamburger-react'
 
 function Navigation() {
 
-    const [isOpen, setOpen] = useState(false)
+    const [navbar, setnavbar] = useState(false);
+    const [mobile, setMobile] = useState(false);
 
-    const getClassName = () => {
-        if (isOpen)
-            return "topnav"
-        else
-            return "topnav responsive"
-    }
+    const handleToggle = () => setnavbar(!navbar);
+    const closeMobile = () => setMobile(false);
 
     return (
         <section id="navigation">
-            <div className={getClassName()} id="myTopnav">
-                <p>Taylor Sieling</p>
-                <a href="#contact">Contact</a>
-                <a href="#resume">Résumé</a>
-                <a href="#blog">Blog</a>
-                <a href="#projects">Projects</a>
+            <div className="navbar">
+                <div className="nav-name">
+                    <div className="name-container">
+                        <p >Taylor Sieling</p>
+                    </div>
+
+                    <ul className={navbar ? "nav-options active" : "nav-options"}>
+                        <li className="option" onClick={closeMobile}>
+                            <a href="#about">About</a>
+                        </li>
+                        <li className="option" onClick={closeMobile}>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li className="option" onClick={closeMobile}>
+                            <a href="#resume">Résumé</a>
+                        </li>
+                        <li className="option" onClick={closeMobile}>
+                            <a href="#blog">Blog</a>
+                        </li>
+                        <li className="option" onClick={closeMobile}>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div className="mobile-menu" onClick={handleToggle}>
+                    {navbar ? (
+                    <i class="fas fa-bars fa-2x"></i>
+                    ) : (
+                    <i class="fas fa-times fa-2x"></i>
+                    )}
+                </div>
+
+            </div>
+
+
+
+
+            <div className="topnav">
+                <p className="name">Taylor Sieling</p> 
+                
+                
+                
+                
+                
+            </div>
+
+            <div className="mobile">
+                <p className="name">Taylor Sieling</p>
+                <a href="#navigation" onClick={handleToggle} className="hamburger"> {navbar ? <i class="fas fa-bars fa-2x"></i> : <i class="fas fa-times fa-2x"></i>}</a>  
+            </div>
+            <div className={`${mobile ? "noDisplay" : "mobileMenu"}`}>
+                <a href="#contact">Contact</a><br/>
+                <a href="#resume">Résumé</a><br/>
+                <a href="#blog">Blog</a><br/>
+                <a href="#projects">Projects</a><br/>
                 <a href="#about">About</a>
-                <a href="#navigation" class="icon"><Hamburger size={20} toggled={isOpen} toggle={setOpen} /></a>  
             </div>
         </section>
     )

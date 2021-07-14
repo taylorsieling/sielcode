@@ -212,6 +212,47 @@ hr {
 
 /* NAVIGATION */
 
+.navbar {
+  display: flex;
+  background-color: #f3eddf;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  height: 80px;
+}
+
+.nav-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.nav-options {
+  padding-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 50px;
+  list-style-type: none;
+}
+.mobile-option {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.option:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .topnav {
   overflow: hidden;
   height: 30px;
@@ -233,6 +274,7 @@ hr {
   float: left;
   padding-left: 10px;
   text-transform: uppercase;
+  font-weight: 700;
   letter-spacing: 2px;
   font-size: 14px;
 }
@@ -242,30 +284,59 @@ hr {
   transform: scale(1.1);
 }
 
-.topnav .icon {
+.topnav .hamburger {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+.mobile, .mobileMenu, .noDisplay {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
   .topnav a {display: none;}
-  .topnav a.icon {
+  .topnav a.hamburger {
     float: right;
     display: block;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    padding: 0;
-    right: 0;
-    top: 0;
+@media screen and (max-width: 700px) {
+  .topnav {
+    display: none;
   }
-  .topnav.responsive a {
-    float: center;
+
+  .mobile {
+    color: #4f4f4f;
+    display: block;
+    position: relative;
+
+  }
+
+  .mobile .name {
+    float: left;
+  }
+
+  .mobile .hamburger {
+    float: right;
+  }
+
+  .mobile a {
+    float: right;
     display: block;
     text-align: right;
+    text-decoration: none;
+    color: #4f4f4f;
+  }
+
+  .mobileMenu {
+    display: block;   
+    background-color: #f3eddf;
+    text-align: center;
+  }
+
+  .mobileMenu a{
+    text-decoration: none;
+    color: #4f4f4f;
   }
 }
 
