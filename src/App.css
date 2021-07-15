@@ -363,7 +363,7 @@ li {
   top: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 481px) {
   .main-title {
     width: fit-content;
     text-align: center;
@@ -414,6 +414,34 @@ li {
     text-align: center;
     position: initial;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .main-title {
+    width: fit-content;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0;
+  }
+
+  .header-title {
+    padding-top: 0;
+    position: relative;
+    top: -130px;
+    margin-bottom: -100px;
+  }
+
+  .header-img {
+    padding: 20px;
+  }
+
+  .headshot {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: initial;
+  }
+
 }
 
 /* ABOUT */
@@ -618,7 +646,18 @@ li {
   }
 }
 
-@media screen and (min-width:480px) and (max-width: 880px) {
+@media screen and (min-width:481px) and (max-width: 880px) {
+  .contact-div {
+    width: fit-content;
+    margin: 30px;
+  }
+  .contact-title {
+    width: fit-content;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .contact-div {
     width: fit-content;
     margin: 30px;
