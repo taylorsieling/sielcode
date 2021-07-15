@@ -4,7 +4,7 @@ function Footer() {
     return (
         <section className="footer">
             <div className="footer">
-                &copy; 2021 Taylor Sieling 
+                <span className="left">&copy; 2021 Taylor Sieling </span>
                 <span className="right footnav">
                     <a href="mailto:taylorasieling@gmail.com">Email</a>&nbsp;&#47;&#47;&nbsp;
                     <a href="https://www.linkedin.com/in/taylorasieling/">LinkedIn</a>&nbsp;&#47;&#47;&nbsp; 

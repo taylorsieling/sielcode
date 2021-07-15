@@ -650,18 +650,6 @@ li {
     text-align: center;
   }
 }
-/* 
-@media screen and (max-width: 480px) {
-  .contact-div {
-    width: fit-content;
-    margin: 30px;
-  }
-  .contact-title {
-    width: fit-content;
-    text-align: center;
-  }
-} */
-
 
 /* FOOTER */
 
@@ -684,6 +672,20 @@ li {
 
 .right {
   float: right;
+}
+
+.left {
+  float: left;
+}
+
+@media screen and (max-width: 880px) {
+  .right, .left {
+    float: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
 }
 
 /* #C1A99A */
