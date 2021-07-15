@@ -152,14 +152,6 @@ hr {
   transition:.3s;
 }
 
-.card-project:hover :not(img){
-  opacity:1;
-}
-
-.card-project:hover img{
-  filter:blur(1px) brightness(60%);
-}
-
 .card-body {
   background-color: white;
   color: #4f4f4f;
@@ -530,6 +522,53 @@ li {
   display: block;
   object-fit: cover;
 }  
+
+/* PROJECTS */
+
+@media (hover: hover) {
+
+  .card-project:hover :not(img){
+    opacity:1;
+  }
+  
+  .card-project:hover img{
+    filter:blur(1px) brightness(60%);
+  }
+
+  .mobile-links {
+    display: none;
+  }
+
+}
+
+.mobile-links {
+  padding: 10px 0px;
+  /* text-align: center;
+  align-items: center; */
+}
+
+.mobile-links > a {
+  display: inline-block;
+  width: 35%;
+  color: #4f4f4f;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: small;
+  font-weight: 600;
+
+}
+
+.mobile-btn {
+  width: 50%;
+}
+
+.project-btn {
+  width: 50%;
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #4f4f4f;
+
+}
 
 /* BLOGS */
 
