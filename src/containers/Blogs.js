@@ -4,8 +4,8 @@ import Blog from '../components/Blog'
 function Blogs() {
 
     const [articles, setArticles] = useState([])
-    const [loading, setLoading] = useState(false)
-    const [error, setError] = useState(false)
+    // const [loading, setLoading] = useState(false)
+    // const [error, setError] = useState(false)
 
     const url = "https://dev.to/api/articles?username=taylorsieling"
 
