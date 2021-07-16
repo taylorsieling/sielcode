@@ -37,7 +37,7 @@ function Resume() {
                         </p>
                         <p>
                             Stephen F. Austin State Univ. <span className="right">Aug 2012 - Dec 2015</span> <br/>
-                            B.S. Hopsitality Administration<br/> 
+                            B.S. Hospitality Administration<br/> 
                         </p>
                     </div>
                 </div>
