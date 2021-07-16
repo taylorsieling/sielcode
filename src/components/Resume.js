@@ -36,7 +36,7 @@ function Resume() {
                             Software Engineering Program<br/> 
                         </p>
                         <p>
-                            Stephen F. Austin State Univ. <span className="right">Aug 2012 - Dec 2015</span> <br/>
+                            Stephen F. Austin State Univ. <span className="right"><i>Aug 2012 - Dec 2015</i></span> <br/>
                             B.S. Hospitality Administration<br/> 
                         </p>
                     </div>
