@@ -5,7 +5,7 @@ function Blog(props) {
     const article = props.article
 
     return (
-        <div id={article.id} className="row-four">
+        <div id={article.id} className="row-three">
             <a className="hvr-grow" href={article.url}>
             <div className="card-header">
                 <img className="card-img" src={article.social_image} alt="Article Cover"/>

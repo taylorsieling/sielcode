@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 div {
   margin: auto;
-  padding: 20px;
+  padding: 5px 20px;
 }
 
 
@@ -34,6 +34,14 @@ hr {
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: 2px;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
 }
 
 /* SECTIONS */
@@ -237,6 +245,10 @@ hr {
   padding: 10px 12px;
 }
 
+.nav-links li {
+  float: right;
+}
+
 .option {
   color: #4f4f4f;
   font-size: 14px;
@@ -259,10 +271,6 @@ hr {
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-li {
-  float: right;
 }
 
 .mobile-menu {
@@ -622,7 +630,6 @@ li {
 .duties {
   font-weight: normal;
   letter-spacing: normal;
-  padding-bottom: 20px;
 }
 
 @media screen and (max-width:480px){

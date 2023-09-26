@@ -12,7 +12,6 @@ export default function Contact() {
                             <p className="contact-title">Let's Stay in Touch!</p>                            
                             <p className="icon">
                                 <a href="mailto:taylorasieling@gmail.com" target="_blank" rel="noreferrer"><i class="fas fa-envelope-square fa-3x" aria-hidden="true"></i>{null}</a>&nbsp;&nbsp;&nbsp; 
-                                <a href="https://twitter.com/sielcode" target="_blank" rel="noreferrer"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>{null}</a>&nbsp;&nbsp;&nbsp;
                                 <a href="https://www.linkedin.com/in/taylorasieling/" target="_blank" rel="noreferrer"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>{null}</a>&nbsp;&nbsp;&nbsp;
                                 <a href="https://dev.to/taylorsieling" target="_blank" rel="noreferrer"><i class="fab fa-dev fa-3x" aria-hidden="true"></i>{null}</a>&nbsp;&nbsp;&nbsp; 
                                 <a href="https://github.com/taylorsieling" target="_blank" rel="noreferrer"><i class="fab fa-github-square fa-3x"></i>{null}</a>
