@@ -34,9 +34,9 @@ function Navigation() {
                 </div>
                 <div className="mobile-menu menu-icon" onClick={handleToggle}>
                     {navbar ? (
-                    <i class="fas fa-times fa-2x"></i>
+                    <i className="fas fa-times fa-2x"></i>
                     ) : (
-                    <i class="fas fa-bars fa-2x"></i>
+                    <i className="fas fa-bars fa-2x"></i>
                     )}
                 </div>
             </div>
