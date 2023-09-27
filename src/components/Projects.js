@@ -12,15 +12,15 @@ function Projects() {
                 <div className="card-header card-project">
                     <img className="card-img" src="https://i.imgur.com/Oc8U8Ft.jpg" alt="fasdfdf"/>
                     <h3>
-                        <a href="https://drive.google.com/file/d/10P0UGyJsalA9w-7sAhpJYvLcNU3GJE_K/view?usp=sharing" target="_blank" rel="noreferrer" className="card-link">Demo</a>
-                        <br/>-<br/>
+                        {/* <a href="https://drive.google.com/file/d/10P0UGyJsalA9w-7sAhpJYvLcNU3GJE_K/view?usp=sharing" target="_blank" rel="noreferrer" className="card-link">Demo</a>
+                        <br/>-<br/> */}
                         <a href="https://github.com/taylorsieling/foster-buddy" target="_blank" rel="noreferrer" className="card-link">Github</a>
                     </h3>
                 </div>
                 <div className="card-body">
                     <p><strong>Foster Buddy: </strong>A reimagined version of The Kitten Foster app, a management application for foster and rescue animals.</p>
                     <div className="mobile-links">
-                        <a href="https://drive.google.com/file/d/10P0UGyJsalA9w-7sAhpJYvLcNU3GJE_K/view?usp=sharing" target="_blank" rel="noreferrer" className="project-btn">Demo</a>
+                        {/* <a href="https://drive.google.com/file/d/10P0UGyJsalA9w-7sAhpJYvLcNU3GJE_K/view?usp=sharing" target="_blank" rel="noreferrer" className="project-btn">Demo</a> */}
                         <a href="https://github.com/taylorsieling/foster-buddy" target="_blank" rel="noreferrer" className="project-btn">Github</a>
                     </div>
                 </div>
@@ -30,15 +30,15 @@ function Projects() {
                 <div className="card-header card-project">
                     <img className="card-img" src="https://i.imgur.com/0NkYzf2.jpg" alt="adfsdf"/>
                     <h3>
-                        {/* <a href="https://drive.google.com/file/d/10P0UGyJsalA9w-7sAhpJYvLcNU3GJE_K/view?usp=sharing" target="_blank" rel="noreferrer" className="card-link">Demo</a>
-                        <br/>-<br/> */}
+                        <a href="https://drive.google.com/file/d/10P0UGyJsalA9w-7sAhpJYvLcNU3GJE_K/view?usp=sharing" target="_blank" rel="noreferrer" className="card-link">Demo</a>
+                        <br/>-<br/>
                         <a href="https://github.com/taylorsieling/knittin-kitten-foster" target="_blank" rel="noreferrer" className="card-link">Github</a>
                     </h3>
                 </div>
                 <div className="card-body">
                     <p><strong>The Kitten Foster: </strong>Record your kitten foster intake information. Update it as they grow.</p>
                     <div className="mobile-links">
-                        {/* <a href="https://drive.google.com/file/d/10P0UGyJsalA9w-7sAhpJYvLcNU3GJE_K/view?usp=sharing" target="_blank" rel="noreferrer" className="project-btn">Demo</a> */}
+                        <a href="https://drive.google.com/file/d/10P0UGyJsalA9w-7sAhpJYvLcNU3GJE_K/view?usp=sharing" target="_blank" rel="noreferrer" className="project-btn">Demo</a>
                         <a href="https://github.com/taylorsieling/knittin-kitten-foster" target="_blank" rel="noreferrer" className="project-btn">Github</a>
                     </div>
                 </div>
